@@ -1,0 +1,291 @@
+[
+  {
+    "id": "pattern_sequence_L1_001",
+    "category": "pattern_sequence",
+    "difficulty": "L1",
+    "instruction": "How many times does 'ab' appear in 'ababab'?",
+    "input": "ababab",
+    "expected_output": "3",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L1_002",
+    "category": "pattern_sequence",
+    "difficulty": "L1",
+    "instruction": "What is the next number: 2, 4, 6, 8, ?",
+    "input": "2, 4, 6, 8",
+    "expected_output": "10",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L1_003",
+    "category": "pattern_sequence",
+    "difficulty": "L1",
+    "instruction": "What is the next number: 1, 3, 5, 7, ?",
+    "input": "1, 3, 5, 7",
+    "expected_output": "9",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L1_004",
+    "category": "pattern_sequence",
+    "difficulty": "L1",
+    "instruction": "How many times does 'aa' appear in 'aaaa'?",
+    "input": "aaaa",
+    "expected_output": "3",
+    "eval_type": "exact",
+    "note": "Overlapping matches: aa(0-1), aa(1-2), aa(2-3)"
+  },
+  {
+    "id": "pattern_sequence_L1_005",
+    "category": "pattern_sequence",
+    "difficulty": "L1",
+    "instruction": "What comes next: A, B, C, D, ?",
+    "input": "A, B, C, D",
+    "expected_output": "E",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L1_006",
+    "category": "pattern_sequence",
+    "difficulty": "L1",
+    "instruction": "What is the next number: 1, 2, 4, 8, 16, ?",
+    "input": "1, 2, 4, 8, 16",
+    "expected_output": "32",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L1_007",
+    "category": "pattern_sequence",
+    "difficulty": "L1",
+    "instruction": "How many times does 'cat' appear in 'the cat sat on the cat mat'?",
+    "input": "the cat sat on the cat mat",
+    "expected_output": "2",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L1_008",
+    "category": "pattern_sequence",
+    "difficulty": "L1",
+    "instruction": "What comes next: 1, 4, 9, 16, 25, ?",
+    "input": "1, 4, 9, 16, 25",
+    "expected_output": "36",
+    "eval_type": "exact",
+    "note": "Perfect squares"
+  },
+  {
+    "id": "pattern_sequence_L1_009",
+    "category": "pattern_sequence",
+    "difficulty": "L1",
+    "instruction": "What is the odd one out: apple, banana, cherry, potato?",
+    "input": "apple, banana, cherry, potato",
+    "expected_output": "potato",
+    "eval_type": "exact",
+    "note": "Potato is a vegetable, not a fruit"
+  },
+  {
+    "id": "pattern_sequence_L1_010",
+    "category": "pattern_sequence",
+    "difficulty": "L1",
+    "instruction": "What comes next: Z, Y, X, W, ?",
+    "input": "Z, Y, X, W",
+    "expected_output": "V",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L2_001",
+    "category": "pattern_sequence",
+    "difficulty": "L2",
+    "instruction": "How many times does 'abc' appear in 'abcabcabcabc'?",
+    "input": "abcabcabcabc",
+    "expected_output": "4",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L2_002",
+    "category": "pattern_sequence",
+    "difficulty": "L2",
+    "instruction": "What is the next number: 1, 1, 2, 3, 5, 8, 13, ?",
+    "input": "1, 1, 2, 3, 5, 8, 13",
+    "expected_output": "21",
+    "eval_type": "exact",
+    "note": "Fibonacci sequence"
+  },
+  {
+    "id": "pattern_sequence_L2_003",
+    "category": "pattern_sequence",
+    "difficulty": "L2",
+    "instruction": "How many times does the pattern 'the' appear in 'the cat and the dog and the bird'?",
+    "input": "the cat and the dog and the bird",
+    "expected_output": "3",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L2_004",
+    "category": "pattern_sequence",
+    "difficulty": "L2",
+    "instruction": "What is the next: 2, 6, 12, 20, 30, ?",
+    "input": "2, 6, 12, 20, 30",
+    "expected_output": "42",
+    "eval_type": "exact",
+    "note": "n*(n+1): 1*2=2, 2*3=6, 3*4=12, 4*5=20, 5*6=30, 6*7=42"
+  },
+  {
+    "id": "pattern_sequence_L2_005",
+    "category": "pattern_sequence",
+    "difficulty": "L2",
+    "instruction": "Find the two strings that are identical: 'abc', 'abd', 'abc', 'abcd'",
+    "input": "'abc', 'abd', 'abc', 'abcd'",
+    "expected_output": "abc",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L2_006",
+    "category": "pattern_sequence",
+    "difficulty": "L2",
+    "instruction": "What is the next: 100, 50, 25, 12.5, ?",
+    "input": "100, 50, 25, 12.5",
+    "expected_output": "6.25",
+    "eval_type": "exact",
+    "note": "Halving each time"
+  },
+  {
+    "id": "pattern_sequence_L2_007",
+    "category": "pattern_sequence",
+    "difficulty": "L2",
+    "instruction": "What is the odd one out: 2, 4, 6, 9, 10?",
+    "input": "2, 4, 6, 9, 10",
+    "expected_output": "9",
+    "eval_type": "exact",
+    "note": "9 is the only odd number"
+  },
+  {
+    "id": "pattern_sequence_L2_008",
+    "category": "pattern_sequence",
+    "difficulty": "L2",
+    "instruction": "How many times does 'na' appear in 'banana'?",
+    "input": "banana",
+    "expected_output": "2",
+    "eval_type": "exact",
+    "note": "b-a-n-a-n-a: 'na' at positions 2-3 and 4-5"
+  },
+  {
+    "id": "pattern_sequence_L2_009",
+    "category": "pattern_sequence",
+    "difficulty": "L2",
+    "instruction": "What comes next: 1, 8, 27, 64, 125, ?",
+    "input": "1, 8, 27, 64, 125",
+    "expected_output": "216",
+    "eval_type": "exact",
+    "note": "Perfect cubes: 1^3, 2^3, 3^3, 4^3, 5^3, 6^3=216"
+  },
+  {
+    "id": "pattern_sequence_L2_010",
+    "category": "pattern_sequence",
+    "difficulty": "L2",
+    "instruction": "What is the odd one out: Jupiter, Mars, Earth, Moon, Saturn?",
+    "input": "Jupiter, Mars, Earth, Moon, Saturn",
+    "expected_output": "Moon",
+    "eval_type": "exact",
+    "note": "Moon is a natural satellite, not a planet"
+  },
+  {
+    "id": "pattern_sequence_L3_001",
+    "category": "pattern_sequence",
+    "difficulty": "L3",
+    "instruction": "How many times does 'abab' appear (with overlaps) in 'ababababab'?",
+    "input": "ababababab",
+    "expected_output": "4",
+    "eval_type": "exact",
+    "note": "Overlapping matches at positions 0, 2, 4, 6"
+  },
+  {
+    "id": "pattern_sequence_L3_002",
+    "category": "pattern_sequence",
+    "difficulty": "L3",
+    "instruction": "What is the next: 1, 11, 21, 1211, 111221, ?",
+    "input": "1, 11, 21, 1211, 111221",
+    "expected_output": "312211",
+    "eval_type": "exact",
+    "note": "Look-and-say sequence: read the previous term aloud to get the next"
+  },
+  {
+    "id": "pattern_sequence_L3_003",
+    "category": "pattern_sequence",
+    "difficulty": "L3",
+    "instruction": "How many times does 'oo' appear (with overlaps) in 'oooooo'?",
+    "input": "oooooo",
+    "expected_output": "5",
+    "eval_type": "exact",
+    "note": "6 o's yields overlapping pairs at positions 0-1, 1-2, 2-3, 3-4, 4-5 = 5"
+  },
+  {
+    "id": "pattern_sequence_L3_004",
+    "category": "pattern_sequence",
+    "difficulty": "L3",
+    "instruction": "What is the next prime after 113?",
+    "input": "113",
+    "expected_output": "127",
+    "eval_type": "exact"
+  },
+  {
+    "id": "pattern_sequence_L3_005",
+    "category": "pattern_sequence",
+    "difficulty": "L3",
+    "instruction": "What is the next: 0, 1, 3, 6, 10, 15, 21, ?",
+    "input": "0, 1, 3, 6, 10, 15, 21",
+    "expected_output": "28",
+    "eval_type": "exact",
+    "note": "Triangular numbers: n*(n+1)/2"
+  },
+  {
+    "id": "pattern_sequence_L3_006",
+    "category": "pattern_sequence",
+    "difficulty": "L3",
+    "instruction": "What comes after AABABCABCDABCDE in this pattern?",
+    "input": "AABABCABCDABCDE",
+    "expected_output": "ABCDEF",
+    "eval_type": "exact",
+    "note": "Groups: A, AB, ABC, ABCD, ABCDE, ABCDEF"
+  },
+  {
+    "id": "pattern_sequence_L3_007",
+    "category": "pattern_sequence",
+    "difficulty": "L3",
+    "instruction": "Count how many times 'is' (case-insensitive) appears in 'This is the crisis that exists in the abyss'.",
+    "input": "This is the crisis that exists in the abyss",
+    "expected_output": "5",
+    "eval_type": "exact",
+    "note": "Th(is)=1, (is)=1, cr(is)(is)=2, ex(is)ts=1. Total=5"
+  },
+  {
+    "id": "pattern_sequence_L3_008",
+    "category": "pattern_sequence",
+    "difficulty": "L3",
+    "instruction": "What is the 10th Fibonacci number (starting F1=1, F2=1)?",
+    "input": "",
+    "expected_output": "55",
+    "eval_type": "exact",
+    "note": "1, 1, 2, 3, 5, 8, 13, 21, 34, 55"
+  },
+  {
+    "id": "pattern_sequence_L3_009",
+    "category": "pattern_sequence",
+    "difficulty": "L3",
+    "instruction": "What is the next: 2, 3, 5, 7, 11, 13, 17, 19, ?",
+    "input": "2, 3, 5, 7, 11, 13, 17, 19",
+    "expected_output": "23",
+    "eval_type": "exact",
+    "note": "Prime numbers"
+  },
+  {
+    "id": "pattern_sequence_L3_010",
+    "category": "pattern_sequence",
+    "difficulty": "L3",
+    "instruction": "How many non-overlapping occurrences of 'abcabc' are in 'abcabcabcabcabc'?",
+    "input": "abcabcabcabcabc",
+    "expected_output": "2",
+    "eval_type": "exact",
+    "note": "15 chars / 6 = 2 full non-overlapping matches (positions 0-5, 6-11); 3 chars remain"
+  }
+]

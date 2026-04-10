@@ -1,0 +1,286 @@
+[
+  {
+    "id": "logic_traps_L1_001",
+    "category": "logic_traps",
+    "difficulty": "L1",
+    "instruction": "A rooster lays an egg on top of a barn roof. Which way does the egg roll?",
+    "input": "",
+    "expected_output": "Roosters don't lay eggs",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L1_002",
+    "category": "logic_traps",
+    "difficulty": "L1",
+    "instruction": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "input": "",
+    "expected_output": "9",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L1_003",
+    "category": "logic_traps",
+    "difficulty": "L1",
+    "instruction": "How many birthdays does the average person have?",
+    "input": "",
+    "expected_output": "1",
+    "eval_type": "extract",
+    "note": "You are born once"
+  },
+  {
+    "id": "logic_traps_L1_004",
+    "category": "logic_traps",
+    "difficulty": "L1",
+    "instruction": "Is it legal for a man to marry his widow's sister?",
+    "input": "",
+    "expected_output": "no",
+    "eval_type": "extract",
+    "note": "If he has a widow, he is dead"
+  },
+  {
+    "id": "logic_traps_L1_005",
+    "category": "logic_traps",
+    "difficulty": "L1",
+    "instruction": "You have a match and enter a room with a candle, an oil lamp, and a fireplace. What do you light first?",
+    "input": "",
+    "expected_output": "the match",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L1_006",
+    "category": "logic_traps",
+    "difficulty": "L1",
+    "instruction": "If you throw a red stone into the Blue Sea, what does it become?",
+    "input": "",
+    "expected_output": "wet",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L1_007",
+    "category": "logic_traps",
+    "difficulty": "L1",
+    "instruction": "How many animals of each kind did Moses take on the Ark?",
+    "input": "",
+    "expected_output": "0",
+    "eval_type": "extract",
+    "note": "It was Noah's Ark, not Moses'"
+  },
+  {
+    "id": "logic_traps_L1_008",
+    "category": "logic_traps",
+    "difficulty": "L1",
+    "instruction": "A plane crashes on the US-Canada border. Where do you bury the survivors?",
+    "input": "",
+    "expected_output": "You don't bury survivors",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L1_009",
+    "category": "logic_traps",
+    "difficulty": "L1",
+    "instruction": "A doctor has a brother but the brother has no brothers. How?",
+    "input": "",
+    "expected_output": "The doctor is a woman",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L1_010",
+    "category": "logic_traps",
+    "difficulty": "L1",
+    "instruction": "What can you catch but not throw?",
+    "input": "",
+    "expected_output": "a cold",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L2_001",
+    "category": "logic_traps",
+    "difficulty": "L2",
+    "instruction": "Before Mount Everest was discovered, what was the tallest mountain on Earth?",
+    "input": "",
+    "expected_output": "Mount Everest",
+    "eval_type": "extract",
+    "note": "It was still the tallest, just undiscovered"
+  },
+  {
+    "id": "logic_traps_L2_002",
+    "category": "logic_traps",
+    "difficulty": "L2",
+    "instruction": "If you have 3 apples and take away 2, how many apples do you have?",
+    "input": "",
+    "expected_output": "2",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L2_003",
+    "category": "logic_traps",
+    "difficulty": "L2",
+    "instruction": "A woman shoots her husband, then holds him underwater for 5 minutes. Later they go to dinner. How is this possible?",
+    "input": "",
+    "expected_output": "She took a photo of him and developed it",
+    "eval_type": "extract",
+    "note": "She is a photographer"
+  },
+  {
+    "id": "logic_traps_L2_004",
+    "category": "logic_traps",
+    "difficulty": "L2",
+    "instruction": "A cowboy rides into town on Friday, stays 3 days, and leaves on Friday. How is this possible?",
+    "input": "",
+    "expected_output": "His horse is named Friday",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L2_005",
+    "category": "logic_traps",
+    "difficulty": "L2",
+    "instruction": "What has keys but no locks, space but no room, and you can enter but can't go inside?",
+    "input": "",
+    "expected_output": "a keyboard",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L2_006",
+    "category": "logic_traps",
+    "difficulty": "L2",
+    "instruction": "How much dirt is in a hole that is 3 feet deep, 2 feet wide, and 2 feet long?",
+    "input": "",
+    "expected_output": "none",
+    "eval_type": "extract",
+    "note": "A hole has no dirt in it"
+  },
+  {
+    "id": "logic_traps_L2_007",
+    "category": "logic_traps",
+    "difficulty": "L2",
+    "instruction": "A man walks into a bar and asks for a glass of water. The bartender pulls out a gun and fires it into the air. The man thanks him and leaves. Why?",
+    "input": "",
+    "expected_output": "The man had hiccups",
+    "eval_type": "extract",
+    "note": "The fright cured his hiccups"
+  },
+  {
+    "id": "logic_traps_L2_008",
+    "category": "logic_traps",
+    "difficulty": "L2",
+    "instruction": "There are 5 birds in a tree. A hunter shoots 1. How many birds are left in the tree?",
+    "input": "",
+    "expected_output": "0",
+    "eval_type": "extract",
+    "note": "The shot scares the other birds away"
+  },
+  {
+    "id": "logic_traps_L2_009",
+    "category": "logic_traps",
+    "difficulty": "L2",
+    "instruction": "What word is spelled incorrectly in every dictionary?",
+    "input": "",
+    "expected_output": "incorrectly",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L2_010",
+    "category": "logic_traps",
+    "difficulty": "L2",
+    "instruction": "If yesterday was two days after Monday, what day is it today?",
+    "input": "",
+    "expected_output": "Thursday",
+    "eval_type": "extract",
+    "note": "Two days after Monday = Wednesday = yesterday, so today = Thursday"
+  },
+  {
+    "id": "logic_traps_L3_001",
+    "category": "logic_traps",
+    "difficulty": "L3",
+    "instruction": "A man is pushing his car. He stops in front of a hotel and immediately goes bankrupt. What is he doing?",
+    "input": "",
+    "expected_output": "Playing Monopoly",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L3_002",
+    "category": "logic_traps",
+    "difficulty": "L3",
+    "instruction": "Two fathers and two sons go fishing. Each catches one fish. How many fish are caught in total?",
+    "input": "",
+    "expected_output": "3",
+    "eval_type": "extract",
+    "note": "Grandfather, father, and son = 3 people"
+  },
+  {
+    "id": "logic_traps_L3_003",
+    "category": "logic_traps",
+    "difficulty": "L3",
+    "instruction": "A woman lives on the 100th floor of an apartment building. Every morning she takes the elevator down to the 1st floor to go to work. On sunny days she rides back up to the 100th floor. On rainy days she only rides to the 50th floor and walks the rest. Why?",
+    "input": "",
+    "expected_output": "She is short and can only reach the button for floor 50",
+    "eval_type": "extract",
+    "note": "On rainy days she uses her umbrella to press the button for floor 100"
+  },
+  {
+    "id": "logic_traps_L3_004",
+    "category": "logic_traps",
+    "difficulty": "L3",
+    "instruction": "What is the English word for the number 12 + 1?",
+    "input": "",
+    "expected_output": "thirteen",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L3_005",
+    "category": "logic_traps",
+    "difficulty": "L3",
+    "instruction": "Johnny's mother had three children. The first was named April. The second was named May. What was the third child's name?",
+    "input": "",
+    "expected_output": "Johnny",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L3_006",
+    "category": "logic_traps",
+    "difficulty": "L3",
+    "instruction": "In a one-story house, the walls are blue, the floors are pink, and the furniture is yellow. What color are the stairs?",
+    "input": "",
+    "expected_output": "There are no stairs in a one-story house",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L3_007",
+    "category": "logic_traps",
+    "difficulty": "L3",
+    "instruction": "I have two US coins totaling 30 cents. One is not a nickel. What are the two coins?",
+    "input": "",
+    "expected_output": "A quarter and a nickel",
+    "eval_type": "extract",
+    "note": "The one that is not a nickel is the quarter. The other one IS a nickel."
+  },
+  {
+    "id": "logic_traps_L3_008",
+    "category": "logic_traps",
+    "difficulty": "L3",
+    "instruction": "A man looks at a portrait and says: 'Brothers and sisters I have none, but that man's father is my father's son.' Who is in the portrait?",
+    "input": "",
+    "expected_output": "His son",
+    "eval_type": "extract",
+    "note": "'My father's son' with no brothers = me, so 'that man's father is me' means the portrait is of his son"
+  },
+  {
+    "id": "logic_traps_L3_009",
+    "category": "logic_traps",
+    "difficulty": "L3",
+    "instruction": "Which is heavier: a pound of gold or a pound of feathers?",
+    "input": "",
+    "expected_output": "They weigh the same",
+    "eval_type": "extract"
+  },
+  {
+    "id": "logic_traps_L3_010",
+    "category": "logic_traps",
+    "difficulty": "L3",
+    "instruction": "You are driving a bus. At stop 1, three people get on. At stop 2, two people get off. At stop 3, five more people get on. What is the name of the bus driver?",
+    "input": "",
+    "expected_output": "your name",
+    "eval_type": "extract",
+    "note": "The question states 'you are driving the bus', so the answer is the reader's own name"
+  }
+]

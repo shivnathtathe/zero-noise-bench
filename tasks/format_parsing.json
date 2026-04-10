@@ -1,0 +1,280 @@
+[
+  {
+    "id": "format_parsing_L1_001",
+    "category": "format_parsing",
+    "difficulty": "L1",
+    "instruction": "How many sentences are in the following text: 'Hello. How are you? I am fine.'",
+    "input": "Hello. How are you? I am fine.",
+    "expected_output": "3",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L1_002",
+    "category": "format_parsing",
+    "difficulty": "L1",
+    "instruction": "Extract all numbers from the following text and return them space-separated: 'I have 3 cats and 2 dogs'",
+    "input": "I have 3 cats and 2 dogs",
+    "expected_output": "3 2",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L1_003",
+    "category": "format_parsing",
+    "difficulty": "L1",
+    "instruction": "How many punctuation marks are in the following text: 'Hello, World!'",
+    "input": "Hello, World!",
+    "expected_output": "2",
+    "eval_type": "exact",
+    "note": "Comma and exclamation mark count as punctuation"
+  },
+  {
+    "id": "format_parsing_L1_004",
+    "category": "format_parsing",
+    "difficulty": "L1",
+    "instruction": "How many words are in the following text: 'The quick brown fox'",
+    "input": "The quick brown fox",
+    "expected_output": "4",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L1_005",
+    "category": "format_parsing",
+    "difficulty": "L1",
+    "instruction": "What is the number in the following text: 'I scored 100 points'",
+    "input": "I scored 100 points",
+    "expected_output": "100",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L1_006",
+    "category": "format_parsing",
+    "difficulty": "L1",
+    "instruction": "How many commas are in the following text: 'one, two, three, four, five'",
+    "input": "one, two, three, four, five",
+    "expected_output": "4",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L1_007",
+    "category": "format_parsing",
+    "difficulty": "L1",
+    "instruction": "Extract the number from the following text: 'Temperature is 37 degrees'",
+    "input": "Temperature is 37 degrees",
+    "expected_output": "37",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L1_008",
+    "category": "format_parsing",
+    "difficulty": "L1",
+    "instruction": "How many exclamation marks are in the following text: 'Wow! Amazing! Incredible!'",
+    "input": "Wow! Amazing! Incredible!",
+    "expected_output": "3",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L1_009",
+    "category": "format_parsing",
+    "difficulty": "L1",
+    "instruction": "How many uppercase letters are in the following text: 'Hello World'",
+    "input": "Hello World",
+    "expected_output": "2",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L1_010",
+    "category": "format_parsing",
+    "difficulty": "L1",
+    "instruction": "How many characters (excluding spaces) are in the following text: 'Hello World'",
+    "input": "Hello World",
+    "expected_output": "10",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L2_001",
+    "category": "format_parsing",
+    "difficulty": "L2",
+    "instruction": "Extract all numbers from the following text and return them space-separated in order of appearance: 'On January 5, 2024, I bought 3 books for $12.99 each'",
+    "input": "On January 5, 2024, I bought 3 books for $12.99 each",
+    "expected_output": "5 2024 3 12.99",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L2_002",
+    "category": "format_parsing",
+    "difficulty": "L2",
+    "instruction": "How many sentences are in the following text: 'The cat sat. The dog ran. The bird flew. The fish swam.'",
+    "input": "The cat sat. The dog ran. The bird flew. The fish swam.",
+    "expected_output": "4",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L2_003",
+    "category": "format_parsing",
+    "difficulty": "L2",
+    "instruction": "How many question marks are in the following text: 'What? Who? Where? When? Why? How?'",
+    "input": "What? Who? Where? When? Why? How?",
+    "expected_output": "6",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L2_004",
+    "category": "format_parsing",
+    "difficulty": "L2",
+    "instruction": "Count the words in the following text: 'To be or not to be that is the question'",
+    "input": "To be or not to be that is the question",
+    "expected_output": "10",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L2_005",
+    "category": "format_parsing",
+    "difficulty": "L2",
+    "instruction": "How many digits (individual digit characters 0-9) appear in the following text: 'abc123def456ghi789'",
+    "input": "abc123def456ghi789",
+    "expected_output": "9",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L2_006",
+    "category": "format_parsing",
+    "difficulty": "L2",
+    "instruction": "How many unique words are in the following text: 'the cat sat on the mat'",
+    "input": "the cat sat on the mat",
+    "expected_output": "5",
+    "eval_type": "exact",
+    "note": "The word 'the' appears twice but is counted only once; unique words are: the, cat, sat, on, mat"
+  },
+  {
+    "id": "format_parsing_L2_007",
+    "category": "format_parsing",
+    "difficulty": "L2",
+    "instruction": "Extract the year from the following text: 'The event happened on March 15, 1969'",
+    "input": "The event happened on March 15, 1969",
+    "expected_output": "1969",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L2_008",
+    "category": "format_parsing",
+    "difficulty": "L2",
+    "instruction": "How many hyphens are in the following text: 'well-known, up-to-date, state-of-the-art'",
+    "input": "well-known, up-to-date, state-of-the-art",
+    "expected_output": "5",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L2_009",
+    "category": "format_parsing",
+    "difficulty": "L2",
+    "instruction": "How many words start with a capital letter in the following text: 'The Quick Brown Fox Jumps Over The Lazy Dog'",
+    "input": "The Quick Brown Fox Jumps Over The Lazy Dog",
+    "expected_output": "9",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L2_010",
+    "category": "format_parsing",
+    "difficulty": "L2",
+    "instruction": "How many semicolons are in the following text: 'a; b; c; d; e'",
+    "input": "a; b; c; d; e",
+    "expected_output": "4",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L3_001",
+    "category": "format_parsing",
+    "difficulty": "L3",
+    "instruction": "Extract all numbers from the following text and return them space-separated in order of appearance. Include only the numeric portions (ignore letters attached to numbers): 'Flight AA123 departs at 14:30 on 2024-03-15, gate B42, seat 17C'",
+    "input": "Flight AA123 departs at 14:30 on 2024-03-15, gate B42, seat 17C",
+    "expected_output": "123 14 30 2024 03 15 42 17",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L3_002",
+    "category": "format_parsing",
+    "difficulty": "L3",
+    "instruction": "How many sentences are in the following text: 'Dr. Smith went to Washington D.C. on Jan. 5. He met Mr. Jones. They discussed the budget.'",
+    "input": "Dr. Smith went to Washington D.C. on Jan. 5. He met Mr. Jones. They discussed the budget.",
+    "expected_output": "3",
+    "eval_type": "exact",
+    "note": "Abbreviations such as Dr., D.C., Jan., and Mr. contain dots that should not be counted as sentence endings"
+  },
+  {
+    "id": "format_parsing_L3_003",
+    "category": "format_parsing",
+    "difficulty": "L3",
+    "instruction": "Count the number of unique words (case-insensitive) in the following text: 'The the THE cat Cat CAT sat SAT'",
+    "input": "The the THE cat Cat CAT sat SAT",
+    "expected_output": "3",
+    "eval_type": "exact",
+    "note": "Unique case-insensitive words are: the, cat, sat"
+  },
+  {
+    "id": "format_parsing_L3_004",
+    "category": "format_parsing",
+    "difficulty": "L3",
+    "instruction": "How many times does a digit character (0-9) appear in the following text: 'a1b2c3d4e5f6g7h8i9j0'",
+    "input": "a1b2c3d4e5f6g7h8i9j0",
+    "expected_output": "10",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L3_005",
+    "category": "format_parsing",
+    "difficulty": "L3",
+    "instruction": "What is the sum of all single digits extracted from the following text: 'abc1def2ghi3'",
+    "input": "abc1def2ghi3",
+    "expected_output": "6",
+    "eval_type": "exact",
+    "note": "Digits are 1, 2, and 3; their sum is 6"
+  },
+  {
+    "id": "format_parsing_L3_006",
+    "category": "format_parsing",
+    "difficulty": "L3",
+    "instruction": "How many opening parentheses are in the following text: 'f(x) = (a+b) * (c-d) / (e+f)'",
+    "input": "f(x) = (a+b) * (c-d) / (e+f)",
+    "expected_output": "4",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L3_007",
+    "category": "format_parsing",
+    "difficulty": "L3",
+    "instruction": "Extract all numbers (including negative numbers) from the following text and return them space-separated in order of appearance: 'The temperature was -5 degrees, wind speed 30 mph, humidity 65%'",
+    "input": "The temperature was -5 degrees, wind speed 30 mph, humidity 65%",
+    "expected_output": "-5 30 65",
+    "eval_type": "exact"
+  },
+  {
+    "id": "format_parsing_L3_008",
+    "category": "format_parsing",
+    "difficulty": "L3",
+    "instruction": "How many words are in the following text: 'supercalifragilisticexpialidocious'",
+    "input": "supercalifragilisticexpialidocious",
+    "expected_output": "1",
+    "eval_type": "exact",
+    "note": "The input is a single very long word"
+  },
+  {
+    "id": "format_parsing_L3_009",
+    "category": "format_parsing",
+    "difficulty": "L3",
+    "instruction": "Count the number of distinct characters in the following text: 'aabbccdd'",
+    "input": "aabbccdd",
+    "expected_output": "4",
+    "eval_type": "exact",
+    "note": "Distinct characters are: a, b, c, d"
+  },
+  {
+    "id": "format_parsing_L3_010",
+    "category": "format_parsing",
+    "difficulty": "L3",
+    "instruction": "How many lines are in the following text (count as number of newline characters plus one): 'line one\nline two\nline three'",
+    "input": "line one\nline two\nline three",
+    "expected_output": "3",
+    "eval_type": "exact",
+    "note": "Three lines separated by two newline characters; line count equals newlines + 1"
+  }
+]

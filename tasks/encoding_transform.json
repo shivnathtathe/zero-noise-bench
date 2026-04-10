@@ -1,0 +1,275 @@
+[
+  {
+    "id": "encoding_transform_L1_001",
+    "category": "encoding_transform",
+    "difficulty": "L1",
+    "instruction": "Apply ROT13 to: Hello",
+    "input": "Hello",
+    "expected_output": "Uryyb",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L1_002",
+    "category": "encoding_transform",
+    "difficulty": "L1",
+    "instruction": "Apply ROT13 to: World",
+    "input": "World",
+    "expected_output": "Jbeyq",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L1_003",
+    "category": "encoding_transform",
+    "difficulty": "L1",
+    "instruction": "Apply Caesar cipher (shift +3) to: abc",
+    "input": "abc",
+    "expected_output": "def",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L1_004",
+    "category": "encoding_transform",
+    "difficulty": "L1",
+    "instruction": "Apply Caesar cipher (shift +3) to: xyz",
+    "input": "xyz",
+    "expected_output": "abc",
+    "eval_type": "exact",
+    "note": "Wraps around the alphabet"
+  },
+  {
+    "id": "encoding_transform_L1_005",
+    "category": "encoding_transform",
+    "difficulty": "L1",
+    "instruction": "Reverse the word order (not characters) in: 'hello world'",
+    "input": "hello world",
+    "expected_output": "world hello",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L1_006",
+    "category": "encoding_transform",
+    "difficulty": "L1",
+    "instruction": "Replace every vowel (a, e, i, o, u) with '*' in: 'hello'",
+    "input": "hello",
+    "expected_output": "h*ll*",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L1_007",
+    "category": "encoding_transform",
+    "difficulty": "L1",
+    "instruction": "Convert to alternating upper/lower case (start uppercase): 'hello'",
+    "input": "hello",
+    "expected_output": "HeLlO",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L1_008",
+    "category": "encoding_transform",
+    "difficulty": "L1",
+    "instruction": "Apply ROT13 to: Python",
+    "input": "Python",
+    "expected_output": "Clguba",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L1_009",
+    "category": "encoding_transform",
+    "difficulty": "L1",
+    "instruction": "Apply Caesar cipher (shift +3) to: Hello",
+    "input": "Hello",
+    "expected_output": "Khoor",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L1_010",
+    "category": "encoding_transform",
+    "difficulty": "L1",
+    "instruction": "Reverse the word order in: 'one two three four five'",
+    "input": "one two three four five",
+    "expected_output": "five four three two one",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L2_001",
+    "category": "encoding_transform",
+    "difficulty": "L2",
+    "instruction": "Apply ROT13 to: Attack at dawn",
+    "input": "Attack at dawn",
+    "expected_output": "Nggnpx ng qnja",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L2_002",
+    "category": "encoding_transform",
+    "difficulty": "L2",
+    "instruction": "Apply ROT13 to: Never give up",
+    "input": "Never give up",
+    "expected_output": "Arire tvir hc",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L2_003",
+    "category": "encoding_transform",
+    "difficulty": "L2",
+    "instruction": "Apply Caesar cipher (shift +3) to: Python",
+    "input": "Python",
+    "expected_output": "Sbwkrq",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L2_004",
+    "category": "encoding_transform",
+    "difficulty": "L2",
+    "instruction": "Replace every vowel with its position number (a=1, e=2, i=3, o=4, u=5) in: 'hello'",
+    "input": "hello",
+    "expected_output": "h2ll4",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L2_005",
+    "category": "encoding_transform",
+    "difficulty": "L2",
+    "instruction": "Reverse the word order in: 'the quick brown fox jumps'",
+    "input": "the quick brown fox jumps",
+    "expected_output": "jumps fox brown quick the",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L2_006",
+    "category": "encoding_transform",
+    "difficulty": "L2",
+    "instruction": "Convert to alternating upper/lower case (start uppercase): 'benchmark'",
+    "input": "benchmark",
+    "expected_output": "BeNcHmArK",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L2_007",
+    "category": "encoding_transform",
+    "difficulty": "L2",
+    "instruction": "Apply ROT13 to: Claude is smart",
+    "input": "Claude is smart",
+    "expected_output": "Pynhqr vf fzneg",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L2_008",
+    "category": "encoding_transform",
+    "difficulty": "L2",
+    "instruction": "Apply Caesar cipher (shift +3) to: Benchmark",
+    "input": "Benchmark",
+    "expected_output": "Ehqfkpdun",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L2_009",
+    "category": "encoding_transform",
+    "difficulty": "L2",
+    "instruction": "Replace every consonant with '-' and keep vowels in: 'hello'",
+    "input": "hello",
+    "expected_output": "-e--o",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L2_010",
+    "category": "encoding_transform",
+    "difficulty": "L2",
+    "instruction": "Reverse the word order in: 'to be or not to be'",
+    "input": "to be or not to be",
+    "expected_output": "be to not or be to",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L3_001",
+    "category": "encoding_transform",
+    "difficulty": "L3",
+    "instruction": "Apply ROT13 to: The quick brown fox",
+    "input": "The quick brown fox",
+    "expected_output": "Gur dhvpx oebja sbk",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L3_002",
+    "category": "encoding_transform",
+    "difficulty": "L3",
+    "instruction": "Apply ROT13 twice to: Hello World (what do you get?)",
+    "input": "Hello World",
+    "expected_output": "Hello World",
+    "eval_type": "exact",
+    "note": "ROT13 is its own inverse; applying it twice returns the original string"
+  },
+  {
+    "id": "encoding_transform_L3_003",
+    "category": "encoding_transform",
+    "difficulty": "L3",
+    "instruction": "Apply Caesar cipher (shift -3) to: Hello",
+    "input": "Hello",
+    "expected_output": "Ebiil",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L3_004",
+    "category": "encoding_transform",
+    "difficulty": "L3",
+    "instruction": "Apply Caesar cipher (shift -3) to: abc",
+    "input": "abc",
+    "expected_output": "xyz",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L3_005",
+    "category": "encoding_transform",
+    "difficulty": "L3",
+    "instruction": "Reverse the word order in: 'I am the master of my fate I am the captain of my soul'",
+    "input": "I am the master of my fate I am the captain of my soul",
+    "expected_output": "soul my of captain the am I fate my of master the am I",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L3_006",
+    "category": "encoding_transform",
+    "difficulty": "L3",
+    "instruction": "Apply ROT13 to: ZeroNoise",
+    "input": "ZeroNoise",
+    "expected_output": "MrebAbvfr",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L3_007",
+    "category": "encoding_transform",
+    "difficulty": "L3",
+    "instruction": "Replace vowels with numbers (a=1, e=2, i=3, o=4, u=5) in: 'programming'",
+    "input": "programming",
+    "expected_output": "pr4gr1mm3ng",
+    "eval_type": "exact",
+    "note": "p-r-o-g-r-a-m-m-i-n-g: o->4, a->1, i->3"
+  },
+  {
+    "id": "encoding_transform_L3_008",
+    "category": "encoding_transform",
+    "difficulty": "L3",
+    "instruction": "Convert to alternating upper/lower case (start uppercase): 'zeronoisebench'",
+    "input": "zeronoisebench",
+    "expected_output": "ZeRoNoIsEbEnCh",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L3_009",
+    "category": "encoding_transform",
+    "difficulty": "L3",
+    "instruction": "Apply ROT13 to: Benchmark",
+    "input": "Benchmark",
+    "expected_output": "Orapuznex",
+    "eval_type": "exact"
+  },
+  {
+    "id": "encoding_transform_L3_010",
+    "category": "encoding_transform",
+    "difficulty": "L3",
+    "instruction": "Reverse the word order in: 'the sky is blue and the grass is green and the sun is yellow'",
+    "input": "the sky is blue and the grass is green and the sun is yellow",
+    "expected_output": "yellow is sun the and green is grass the and blue is sky the",
+    "eval_type": "exact"
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "string_ops_L1_001",
+    "category": "string_ops",
+    "difficulty": "L1",
+    "instruction": "Reverse this string: hello",
+    "input": "hello",
+    "expected_output": "olleh",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L1_002",
+    "category": "string_ops",
+    "difficulty": "L1",
+    "instruction": "Reverse this string: world",
+    "input": "world",
+    "expected_output": "dlrow",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L1_003",
+    "category": "string_ops",
+    "difficulty": "L1",
+    "instruction": "Reverse this string: python",
+    "input": "python",
+    "expected_output": "nohtyp",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L1_004",
+    "category": "string_ops",
+    "difficulty": "L1",
+    "instruction": "Reverse this string: racecar",
+    "input": "racecar",
+    "expected_output": "racecar",
+    "eval_type": "exact",
+    "note": "palindrome — reversed output equals input"
+  },
+  {
+    "id": "string_ops_L1_005",
+    "category": "string_ops",
+    "difficulty": "L1",
+    "instruction": "Reverse this string: 12345",
+    "input": "12345",
+    "expected_output": "54321",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L1_006",
+    "category": "string_ops",
+    "difficulty": "L1",
+    "instruction": "Reverse this string: abcde",
+    "input": "abcde",
+    "expected_output": "edcba",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L1_007",
+    "category": "string_ops",
+    "difficulty": "L1",
+    "instruction": "Reverse this string: OpenAI",
+    "input": "OpenAI",
+    "expected_output": "IAnepO",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L1_008",
+    "category": "string_ops",
+    "difficulty": "L1",
+    "instruction": "Reverse this string: test",
+    "input": "test",
+    "expected_output": "tset",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L1_009",
+    "category": "string_ops",
+    "difficulty": "L1",
+    "instruction": "Reverse this string: level",
+    "input": "level",
+    "expected_output": "level",
+    "eval_type": "exact",
+    "note": "palindrome — reversed output equals input"
+  },
+  {
+    "id": "string_ops_L1_010",
+    "category": "string_ops",
+    "difficulty": "L1",
+    "instruction": "Reverse this string: Claude",
+    "input": "Claude",
+    "expected_output": "edualC",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L2_001",
+    "category": "string_ops",
+    "difficulty": "L2",
+    "instruction": "Reverse this string: Hello, World!",
+    "input": "Hello, World!",
+    "expected_output": "!dlroW ,olleH",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L2_002",
+    "category": "string_ops",
+    "difficulty": "L2",
+    "instruction": "Reverse this string: ZeroNoiseBench",
+    "input": "ZeroNoiseBench",
+    "expected_output": "hcneBesioNoreZ",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L2_003",
+    "category": "string_ops",
+    "difficulty": "L2",
+    "instruction": "Reverse this string: 1234567890",
+    "input": "1234567890",
+    "expected_output": "0987654321",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L2_004",
+    "category": "string_ops",
+    "difficulty": "L2",
+    "instruction": "Reverse this string: abc123!@#",
+    "input": "abc123!@#",
+    "expected_output": "#@!321cba",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L2_005",
+    "category": "string_ops",
+    "difficulty": "L2",
+    "instruction": "Reverse this string: The quick brown fox",
+    "input": "The quick brown fox",
+    "expected_output": "xof nworb kciuq ehT",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L2_006",
+    "category": "string_ops",
+    "difficulty": "L2",
+    "instruction": "Reverse this string: Claude rocks",
+    "input": "Claude rocks",
+    "expected_output": "skcor edulC",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L2_007",
+    "category": "string_ops",
+    "difficulty": "L2",
+    "instruction": "Reverse this string: Data Science 101",
+    "input": "Data Science 101",
+    "expected_output": "101 ecneicS ataD",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L2_008",
+    "category": "string_ops",
+    "difficulty": "L2",
+    "instruction": "Reverse this string: Never gonna give you up",
+    "input": "Never gonna give you up",
+    "expected_output": "pu uoy evig annog reveN",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L2_009",
+    "category": "string_ops",
+    "difficulty": "L2",
+    "instruction": "Reverse this string: LLMs fail at this",
+    "input": "LLMs fail at this",
+    "expected_output": "siht ta liaf sMLl",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L2_010",
+    "category": "string_ops",
+    "difficulty": "L2",
+    "instruction": "Reverse this string: Benchmark2025",
+    "input": "Benchmark2025",
+    "expected_output": "5202kramhcneB",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L3_001",
+    "category": "string_ops",
+    "difficulty": "L3",
+    "instruction": "Reverse this string: aB3!xQzL9mNpRvT2kWsYuO7eDfGhIjC",
+    "input": "aB3!xQzL9mNpRvT2kWsYuO7eDfGhIjC",
+    "expected_output": "CjIhGfDe7OuYsWk2TvRpNm9LzQx!3Ba",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L3_002",
+    "category": "string_ops",
+    "difficulty": "L3",
+    "instruction": "Reverse this string: Tr0ub4dorANDcorrectBatteryHorseStaple",
+    "input": "Tr0ub4dorANDcorrectBatteryHorseStaple",
+    "expected_output": "elpatSesroHyrettaBtcerrocDNArod4bu0rT",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L3_003",
+    "category": "string_ops",
+    "difficulty": "L3",
+    "instruction": "Reverse this string: Z1x2C3v4B5n6M7q8W9e0RtYuIoPaS",
+    "input": "Z1x2C3v4B5n6M7q8W9e0RtYuIoPaS",
+    "expected_output": "SaPoIuYtR0e9W8q7M6n5B4v3C2x1Z",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L3_004",
+    "category": "string_ops",
+    "difficulty": "L3",
+    "instruction": "Reverse this string: HelloWorldFoo456BarBaz789Qux123",
+    "input": "HelloWorldFoo456BarBaz789Qux123",
+    "expected_output": "321xuQ987zaBraB654ooFdlroWolleH",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L3_005",
+    "category": "string_ops",
+    "difficulty": "L3",
+    "instruction": "Reverse this string: aAbBcCdDeEfFgGhHiIjJkKlLmMnNoO",
+    "input": "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoO",
+    "expected_output": "OoNnMmLlKkJjIiHhGgFfEeDdCcBbAa",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L3_006",
+    "category": "string_ops",
+    "difficulty": "L3",
+    "instruction": "Reverse this string: 9876543210abcdefghijklmnopqrstu",
+    "input": "9876543210abcdefghijklmnopqrstu",
+    "expected_output": "utsrqponmlkjihgfedcba0123456789",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L3_007",
+    "category": "string_ops",
+    "difficulty": "L3",
+    "instruction": "Reverse this string: TheQuickBrownFoxJumpsOverLazy12",
+    "input": "TheQuickBrownFoxJumpsOverLazy12",
+    "expected_output": "21yzaLrevOspmuJxoFnworBkciuQehT",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L3_008",
+    "category": "string_ops",
+    "difficulty": "L3",
+    "instruction": "Reverse this string: zYxWvUtSrQpOnMlKjIhGfEdCbA09876",
+    "input": "zYxWvUtSrQpOnMlKjIhGfEdCbA09876",
+    "expected_output": "67890AbCdEfGhIjKlMnOpQrStUvWxYz",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L3_009",
+    "category": "string_ops",
+    "difficulty": "L3",
+    "instruction": "Reverse this string: xK9mP2vL7nQ4wR1sT6uY3oE8aB5cF0d",
+    "input": "xK9mP2vL7nQ4wR1sT6uY3oE8aB5cF0d",
+    "expected_output": "d0Fc5Ba8Eo3Yu6Ts1Rw4Qn7Lv2Pm9Kx",
+    "eval_type": "exact"
+  },
+  {
+    "id": "string_ops_L3_010",
+    "category": "string_ops",
+    "difficulty": "L3",
+    "instruction": "Reverse this string: Q7w2E8r3T9y4U1i5O6p0AsDfGhJkLzXc",
+    "input": "Q7w2E8r3T9y4U1i5O6p0AsDfGhJkLzXc",
+    "expected_output": "cXzLkJhGfDsA0p6O5i1U4y9T3r8E2w7Q",
+    "eval_type": "exact"
+  }
+]

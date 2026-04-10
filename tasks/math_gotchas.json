@@ -1,0 +1,299 @@
+[
+  {
+    "id": "math_gotchas_L1_001",
+    "category": "math_gotchas",
+    "difficulty": "L1",
+    "instruction": "Which is greater: 9.11 or 9.9?",
+    "input": "",
+    "expected_output": "9.9",
+    "eval_type": "exact",
+    "note": "LLMs trained on version numbers often say 9.11 due to association with software versioning"
+  },
+  {
+    "id": "math_gotchas_L1_002",
+    "category": "math_gotchas",
+    "difficulty": "L1",
+    "instruction": "A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost? Answer in cents.",
+    "input": "",
+    "expected_output": "5",
+    "eval_type": "extract",
+    "note": "CRT problem — intuitive answer is 10 cents but correct is 5 cents"
+  },
+  {
+    "id": "math_gotchas_L1_003",
+    "category": "math_gotchas",
+    "difficulty": "L1",
+    "instruction": "If you're in a race and you overtake the person in 2nd place, what place are you in now?",
+    "input": "",
+    "expected_output": "2nd",
+    "eval_type": "extract",
+    "note": "You take their place — you cannot be 1st by passing 2nd"
+  },
+  {
+    "id": "math_gotchas_L1_004",
+    "category": "math_gotchas",
+    "difficulty": "L1",
+    "instruction": "A farmer has 17 sheep. All but 9 die. How many sheep are left?",
+    "input": "",
+    "expected_output": "9",
+    "eval_type": "extract",
+    "note": "'All but 9' means 9 survive"
+  },
+  {
+    "id": "math_gotchas_L1_005",
+    "category": "math_gotchas",
+    "difficulty": "L1",
+    "instruction": "How many months have 28 days?",
+    "input": "",
+    "expected_output": "12",
+    "eval_type": "extract",
+    "note": "All 12 months have at least 28 days"
+  },
+  {
+    "id": "math_gotchas_L1_006",
+    "category": "math_gotchas",
+    "difficulty": "L1",
+    "instruction": "What is 1000 + 40 + 1000 + 30 + 1000 + 20 + 1000 + 10?",
+    "input": "",
+    "expected_output": "4100",
+    "eval_type": "exact",
+    "note": "Many people say 5000 due to a mental running-total error"
+  },
+  {
+    "id": "math_gotchas_L1_007",
+    "category": "math_gotchas",
+    "difficulty": "L1",
+    "instruction": "If you have 6 apples and you take away 4, how many apples do you have?",
+    "input": "",
+    "expected_output": "4",
+    "eval_type": "extract",
+    "note": "You personally have the 4 you took"
+  },
+  {
+    "id": "math_gotchas_L1_008",
+    "category": "math_gotchas",
+    "difficulty": "L1",
+    "instruction": "Which is larger: 0.999... (repeating 9s) or 1?",
+    "input": "",
+    "expected_output": "equal",
+    "eval_type": "extract",
+    "note": "0.999... = 1 exactly; they are the same number"
+  },
+  {
+    "id": "math_gotchas_L1_009",
+    "category": "math_gotchas",
+    "difficulty": "L1",
+    "instruction": "What is 8 / 2 * (2 + 2)?",
+    "input": "",
+    "expected_output": "16",
+    "eval_type": "exact",
+    "note": "Left-to-right evaluation with equal precedence: 8/2=4, then 4*4=16. Many models incorrectly say 1."
+  },
+  {
+    "id": "math_gotchas_L1_010",
+    "category": "math_gotchas",
+    "difficulty": "L1",
+    "instruction": "I have 10 fish. Half of them drown. How many are left?",
+    "input": "",
+    "expected_output": "10",
+    "eval_type": "extract",
+    "note": "Fish cannot drown — all 10 remain"
+  },
+  {
+    "id": "math_gotchas_L2_001",
+    "category": "math_gotchas",
+    "difficulty": "L2",
+    "instruction": "Which is greater: 0.1 + 0.2 or 0.3?",
+    "input": "",
+    "expected_output": "equal",
+    "eval_type": "extract",
+    "note": "Mathematically equal, though floating-point representations may differ"
+  },
+  {
+    "id": "math_gotchas_L2_002",
+    "category": "math_gotchas",
+    "difficulty": "L2",
+    "instruction": "A lily pad doubles in size every day. It takes 48 days to cover the pond. How many days does it take to cover half the pond?",
+    "input": "",
+    "expected_output": "47",
+    "eval_type": "extract",
+    "note": "Since it doubles daily, the day before full coverage (day 48) it covered half"
+  },
+  {
+    "id": "math_gotchas_L2_003",
+    "category": "math_gotchas",
+    "difficulty": "L2",
+    "instruction": "There are 3 apples and you take 2. How many apples do you have?",
+    "input": "",
+    "expected_output": "2",
+    "eval_type": "extract",
+    "note": "You took 2, so you have 2"
+  },
+  {
+    "id": "math_gotchas_L2_004",
+    "category": "math_gotchas",
+    "difficulty": "L2",
+    "instruction": "What is -5 squared?",
+    "input": "",
+    "expected_output": "25",
+    "eval_type": "exact",
+    "note": "(-5)^2 = 25; models sometimes confuse with -(5^2) = -25"
+  },
+  {
+    "id": "math_gotchas_L2_005",
+    "category": "math_gotchas",
+    "difficulty": "L2",
+    "instruction": "Is 1 a prime number?",
+    "input": "",
+    "expected_output": "no",
+    "eval_type": "extract",
+    "note": "1 is not prime by definition; primes must have exactly two distinct factors"
+  },
+  {
+    "id": "math_gotchas_L2_006",
+    "category": "math_gotchas",
+    "difficulty": "L2",
+    "instruction": "What is the square root of 144?",
+    "input": "",
+    "expected_output": "12",
+    "eval_type": "exact"
+  },
+  {
+    "id": "math_gotchas_L2_007",
+    "category": "math_gotchas",
+    "difficulty": "L2",
+    "instruction": "What comes next: 1, 1, 2, 3, 5, 8, ?",
+    "input": "",
+    "expected_output": "13",
+    "eval_type": "exact",
+    "note": "Fibonacci sequence"
+  },
+  {
+    "id": "math_gotchas_L2_008",
+    "category": "math_gotchas",
+    "difficulty": "L2",
+    "instruction": "If a plane crashes on the border of the US and Canada, where do they bury the survivors?",
+    "input": "",
+    "expected_output": "You don't bury survivors",
+    "eval_type": "extract",
+    "note": "Trick question — survivors are not buried"
+  },
+  {
+    "id": "math_gotchas_L2_009",
+    "category": "math_gotchas",
+    "difficulty": "L2",
+    "instruction": "What is 0.1 * 10?",
+    "input": "",
+    "expected_output": "1",
+    "eval_type": "exact"
+  },
+  {
+    "id": "math_gotchas_L2_010",
+    "category": "math_gotchas",
+    "difficulty": "L2",
+    "instruction": "How many sides does a circle have?",
+    "input": "",
+    "expected_output": "0",
+    "eval_type": "extract",
+    "note": "A circle has no straight sides; 0 is the most accepted answer in standard geometry"
+  },
+  {
+    "id": "math_gotchas_L3_001",
+    "category": "math_gotchas",
+    "difficulty": "L3",
+    "instruction": "A snail is at the bottom of a 10-foot well. Each day it climbs 3 feet, each night it slides back 2 feet. How many days does it take to reach the top?",
+    "input": "",
+    "expected_output": "8",
+    "eval_type": "extract",
+    "note": "Net 1 ft/day. End of day 7: 7 ft. On day 8 it climbs 3 ft to reach 10 ft before sliding back."
+  },
+  {
+    "id": "math_gotchas_L3_002",
+    "category": "math_gotchas",
+    "difficulty": "L3",
+    "instruction": "Three people split a $30 bill. Each pays $10. The waiter returns $5 but keeps $2 as a tip and gives $1 back to each person. So each person paid $9, and 3x$9=$27, plus the $2 tip equals $29. Where is the missing dollar?",
+    "input": "",
+    "expected_output": "There is no missing dollar",
+    "eval_type": "extract",
+    "note": "The $27 already includes the $2 tip. Adding the tip again is double-counting. The correct accounting is $25 (restaurant) + $2 (tip) + $3 (returned) = $30."
+  },
+  {
+    "id": "math_gotchas_L3_003",
+    "category": "math_gotchas",
+    "difficulty": "L3",
+    "instruction": "What is 2 to the power of 10?",
+    "input": "",
+    "expected_output": "1024",
+    "eval_type": "exact"
+  },
+  {
+    "id": "math_gotchas_L3_004",
+    "category": "math_gotchas",
+    "difficulty": "L3",
+    "instruction": "If I start with a penny and double it every day, how many dollars do I have on day 30?",
+    "input": "",
+    "expected_output": "5368709.12",
+    "eval_type": "extract",
+    "note": "Day 1=$0.01, so day 30 = 0.01 * 2^29 = 0.01 * 536870912 = $5,368,709.12"
+  },
+  {
+    "id": "math_gotchas_L3_005",
+    "category": "math_gotchas",
+    "difficulty": "L3",
+    "instruction": "Is it possible to have a triangle with sides of length 1, 2, and 3?",
+    "input": "",
+    "expected_output": "no",
+    "eval_type": "extract",
+    "note": "Triangle inequality requires a+b > c strictly. 1+2=3 is not > 3, so this is a degenerate (flat) case, not a valid triangle."
+  },
+  {
+    "id": "math_gotchas_L3_006",
+    "category": "math_gotchas",
+    "difficulty": "L3",
+    "instruction": "What is the next prime number after 97?",
+    "input": "",
+    "expected_output": "101",
+    "eval_type": "exact",
+    "note": "98=2x49, 99=9x11, 100=4x25, 101 is prime"
+  },
+  {
+    "id": "math_gotchas_L3_007",
+    "category": "math_gotchas",
+    "difficulty": "L3",
+    "instruction": "If you fold a piece of paper in half 42 times, roughly how thick would it be in kilometers?",
+    "input": "",
+    "expected_output": "439804",
+    "eval_type": "extract",
+    "note": "2^42 * 0.1mm = 439804 km, roughly the distance to the Moon"
+  },
+  {
+    "id": "math_gotchas_L3_008",
+    "category": "math_gotchas",
+    "difficulty": "L3",
+    "instruction": "What is 999999 * 1000001?",
+    "input": "",
+    "expected_output": "999999999999",
+    "eval_type": "exact",
+    "note": "(10^6 - 1)(10^6 + 1) = 10^12 - 1 = 999999999999"
+  },
+  {
+    "id": "math_gotchas_L3_009",
+    "category": "math_gotchas",
+    "difficulty": "L3",
+    "instruction": "How many zeros are at the end of 100! (100 factorial)?",
+    "input": "",
+    "expected_output": "24",
+    "eval_type": "exact",
+    "note": "floor(100/5) + floor(100/25) = 20 + 4 = 24 trailing zeros"
+  },
+  {
+    "id": "math_gotchas_L3_010",
+    "category": "math_gotchas",
+    "difficulty": "L3",
+    "instruction": "What is the sum of all integers from 1 to 100?",
+    "input": "",
+    "expected_output": "5050",
+    "eval_type": "exact",
+    "note": "Gauss formula: n*(n+1)/2 = 100*101/2 = 5050"
+  }
+]

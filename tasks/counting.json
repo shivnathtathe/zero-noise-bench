@@ -1,0 +1,283 @@
+[
+  {
+    "id": "counting_L1_001",
+    "category": "counting",
+    "difficulty": "L1",
+    "instruction": "How many times does the letter 'r' appear in 'strawberry'?",
+    "input": "strawberry",
+    "expected_output": "3",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L1_002",
+    "category": "counting",
+    "difficulty": "L1",
+    "instruction": "How many 's' are in 'mississippi'?",
+    "input": "mississippi",
+    "expected_output": "4",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L1_003",
+    "category": "counting",
+    "difficulty": "L1",
+    "instruction": "How many 'i' are in 'mississippi'?",
+    "input": "mississippi",
+    "expected_output": "4",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L1_004",
+    "category": "counting",
+    "difficulty": "L1",
+    "instruction": "How many 'a' are in 'banana'?",
+    "input": "banana",
+    "expected_output": "3",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L1_005",
+    "category": "counting",
+    "difficulty": "L1",
+    "instruction": "How many 'p' are in 'pepper'?",
+    "input": "pepper",
+    "expected_output": "3",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L1_006",
+    "category": "counting",
+    "difficulty": "L1",
+    "instruction": "How many 'l' are in 'balloon'?",
+    "input": "balloon",
+    "expected_output": "2",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L1_007",
+    "category": "counting",
+    "difficulty": "L1",
+    "instruction": "How many vowels are in 'hello'?",
+    "input": "hello",
+    "expected_output": "2",
+    "eval_type": "extract",
+    "note": "Vowels: e, o"
+  },
+  {
+    "id": "counting_L1_008",
+    "category": "counting",
+    "difficulty": "L1",
+    "instruction": "How many vowels are in 'rhythm'?",
+    "input": "rhythm",
+    "expected_output": "0",
+    "eval_type": "extract",
+    "note": "No standard vowels (a, e, i, o, u) present"
+  },
+  {
+    "id": "counting_L1_009",
+    "category": "counting",
+    "difficulty": "L1",
+    "instruction": "How many characters are in 'hello'?",
+    "input": "hello",
+    "expected_output": "5",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L1_010",
+    "category": "counting",
+    "difficulty": "L1",
+    "instruction": "How many words are in 'hello world this is a test'?",
+    "input": "hello world this is a test",
+    "expected_output": "6",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L2_001",
+    "category": "counting",
+    "difficulty": "L2",
+    "instruction": "How many 'a' are in 'abracadabra'?",
+    "input": "abracadabra",
+    "expected_output": "5",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L2_002",
+    "category": "counting",
+    "difficulty": "L2",
+    "instruction": "How many 'p' are in 'mississippi'?",
+    "input": "mississippi",
+    "expected_output": "2",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L2_003",
+    "category": "counting",
+    "difficulty": "L2",
+    "instruction": "How many vowels are in 'programming'?",
+    "input": "programming",
+    "expected_output": "3",
+    "eval_type": "extract",
+    "note": "Vowels: o, a, i"
+  },
+  {
+    "id": "counting_L2_004",
+    "category": "counting",
+    "difficulty": "L2",
+    "instruction": "How many vowels are in 'beautiful'?",
+    "input": "beautiful",
+    "expected_output": "5",
+    "eval_type": "extract",
+    "note": "Vowels: e, a, u, i, u"
+  },
+  {
+    "id": "counting_L2_005",
+    "category": "counting",
+    "difficulty": "L2",
+    "instruction": "How many 'm' are in 'programming'?",
+    "input": "programming",
+    "expected_output": "2",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L2_006",
+    "category": "counting",
+    "difficulty": "L2",
+    "instruction": "How many 'c' are in 'encyclopedia'?",
+    "input": "encyclopedia",
+    "expected_output": "2",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L2_007",
+    "category": "counting",
+    "difficulty": "L2",
+    "instruction": "How many vowels are in 'education'?",
+    "input": "education",
+    "expected_output": "5",
+    "eval_type": "extract",
+    "note": "Vowels: e, u, a, i, o"
+  },
+  {
+    "id": "counting_L2_008",
+    "category": "counting",
+    "difficulty": "L2",
+    "instruction": "How many vowels are in 'cryptography'?",
+    "input": "cryptography",
+    "expected_output": "2",
+    "eval_type": "extract",
+    "note": "Vowels: o, a"
+  },
+  {
+    "id": "counting_L2_009",
+    "category": "counting",
+    "difficulty": "L2",
+    "instruction": "How many words are in 'the rain in spain stays mainly in the plain'?",
+    "input": "the rain in spain stays mainly in the plain",
+    "expected_output": "9",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L2_010",
+    "category": "counting",
+    "difficulty": "L2",
+    "instruction": "How many letters are in 'ZeroNoiseBench' (count only letters, no spaces)?",
+    "input": "ZeroNoiseBench",
+    "expected_output": "14",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L3_001",
+    "category": "counting",
+    "difficulty": "L3",
+    "instruction": "How many times does 'i' appear in 'antidisestablishmentarianism'?",
+    "input": "antidisestablishmentarianism",
+    "expected_output": "5",
+    "eval_type": "extract",
+    "note": "Positions (0-indexed): 3, 5, 13, 22, 25"
+  },
+  {
+    "id": "counting_L3_002",
+    "category": "counting",
+    "difficulty": "L3",
+    "instruction": "How many 'r' are in 'strawberrry'?",
+    "input": "strawberrry",
+    "expected_output": "4",
+    "eval_type": "extract",
+    "note": "Intentionally misspelled with three consecutive r's: s-t-r-a-w-b-e-r-r-r-y"
+  },
+  {
+    "id": "counting_L3_003",
+    "category": "counting",
+    "difficulty": "L3",
+    "instruction": "How many characters (including spaces) are in 'The quick brown fox jumps over the lazy dog'?",
+    "input": "The quick brown fox jumps over the lazy dog",
+    "expected_output": "43",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L3_004",
+    "category": "counting",
+    "difficulty": "L3",
+    "instruction": "How many words are in 'To be or not to be that is the question'?",
+    "input": "To be or not to be that is the question",
+    "expected_output": "10",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L3_005",
+    "category": "counting",
+    "difficulty": "L3",
+    "instruction": "How many vowels are in 'supercalifragilisticexpialidocious'?",
+    "input": "supercalifragilisticexpialidocious",
+    "expected_output": "16",
+    "eval_type": "extract",
+    "note": "Vowels: u, e, a, i, a, i, i, i, e, i, a, i, o, i, o, u"
+  },
+  {
+    "id": "counting_L3_006",
+    "category": "counting",
+    "difficulty": "L3",
+    "instruction": "How many letters are in 'antidisestablishmentarianism'?",
+    "input": "antidisestablishmentarianism",
+    "expected_output": "28",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L3_007",
+    "category": "counting",
+    "difficulty": "L3",
+    "instruction": "How many times does 'the' (case-insensitive) appear in 'the cat sat on the mat and the hat'?",
+    "input": "the cat sat on the mat and the hat",
+    "expected_output": "4",
+    "eval_type": "extract",
+    "note": "Occurrences: positions 0, 4, 8 (0-indexed by word)"
+  },
+  {
+    "id": "counting_L3_008",
+    "category": "counting",
+    "difficulty": "L3",
+    "instruction": "Count the number of digits in 'abc123def456ghi789'.",
+    "input": "abc123def456ghi789",
+    "expected_output": "9",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L3_009",
+    "category": "counting",
+    "difficulty": "L3",
+    "instruction": "How many spaces are in 'Hello World this is a test sentence'?",
+    "input": "Hello World this is a test sentence",
+    "expected_output": "6",
+    "eval_type": "extract"
+  },
+  {
+    "id": "counting_L3_010",
+    "category": "counting",
+    "difficulty": "L3",
+    "instruction": "How many uppercase letters are in 'HeLLo WoRLd CLaUdE'?",
+    "input": "HeLLo WoRLd CLaUdE",
+    "expected_output": "9",
+    "eval_type": "extract",
+    "note": "Uppercase letters: H, L, L, W, R, L, C, L, E"
+  }
+]
